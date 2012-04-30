@@ -1,0 +1,171 @@
+html,body {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000000;
+    width: 740px ;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: auto ;
+    margin-right: auto ;
+    text-align: justify;
+}
+
+p {
+    line-height: 120%;
+}
+
+a { 
+    selector-dummy : expression(this.hideFocus=true); 
+}
+
+a:link {
+    color: Darkblue;
+}
+
+a:visited {
+    color: Darkblue;
+}
+
+a,a:hover {
+    color: #527BBD;
+}
+
+div.paper {
+    position: relative;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #FFFFFF; 
+}
+
+ul.paper a { 
+    border: none;
+    text-decoration: none;
+}
+
+a.paper, a.paper:link, a.paper:visited, a.paper:hover {
+    border: none;
+    text-decoration: none;
+    color: Black;
+}
+
+ul.paper li {
+    padding-bottom: 5px;
+}
+
+a.pdf,a.pdf:visited {
+    color: red;
+}
+
+a.url,a.url:visited{
+    color: orange;
+}
+
+a.slide,a.slide:visited{
+    color: green;
+}
+
+a.suppl,a.suppl:visited{
+    color: grey;
+}
+
+a.data,a.data:visited{
+    color: deepskyblue;
+}
+
+a.code,a.code:visited{
+    color: blue;
+}
+
+h2,h3,h4 {
+    color: #555555;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    line-height: 90%;
+    border-bottom: 1px solid #000000;
+    width: 740px;
+}
+
+h2 {
+    font-size: 160%;
+}
+
+h3 {
+    font-size: 160%;
+    border-bottom: 0px;
+}
+
+h4 {
+    font-size: 120%;
+    margin: 20px 0 10px 0;
+}
+
+h5 {
+    font-size: 120%;
+    margin: 20px 0 10px 0;
+    border-bottom: 0px;
+}
+
+td {
+    font: 12px
+    line-height: 140%;
+}
+
+th,td {
+    vertical-align: top;
+}
+
+ul,ol,li {
+    margin: 0;
+    padding: 3px;
+}
+
+ul,ol {
+    margin-left: 25px;
+}
+
+div.menu td {
+    padding: 0;
+    line-height: 1.4;
+    font-size: 12px;
+    color: #686868;
+    text-align: justify;
+}
+
+div.menu a, div.menu a:visited {
+    color: #555555;
+}
+
+div.menu a:hover {
+    color: #527BBD;
+}
+
+div.footnote {
+    font-size: 9pt;
+    color: #777777;
+    text-align: justify;
+    border-top: 1px solid #777777;
+}
+
+div.abs {
+    font-size: 10px;
+    color: #444444;
+}
+
+div.bib {
+    font-size: 10px;
+    color: #444444;
+}
+
+img {
+    margin-left: 20px;
+}
